@@ -1,0 +1,44 @@
+.sidebar-minimized {
+  position: fixed;
+  top: 61px;
+  bottom: 0;
+  left: 0px;
+  background-color: white;
+  width: 95px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: white;
+  z-index: 11;
+}
+
+.sidebar-icons {
+  padding: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.sidebar-icons img {
+  height: 25px;
+}
+
+.sidebar-icons div {
+  font-size: 11px;
+}
+
+.sidebar-icons:hover {
+  background-color: hsl(0, 0%, 95%);
+}
+
+.sidebar-icons:active {
+  background-color: hsl(0, 0%, 85%);
+}
+
+.sidebar-icons a {
+  text-decoration: none;
+}
+
+.sidebar-icons a:visited {
+  color: black;
+}

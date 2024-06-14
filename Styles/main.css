@@ -1,0 +1,125 @@
+body {
+  padding-top: 65px;
+  padding-left: 100px;
+  font-family: roboto;
+}
+
+.main-container {
+  display: grid;
+  width: 80%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  margin-top: 35px;
+  column-gap: 9px;
+  row-gap: 40px;
+}
+
+.video-card .video-info-grid {
+  margin-top: 10px;
+}
+
+@media (min-width: 500px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 750px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1300px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1700px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 2000px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 2500px) {
+  .main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+.thumbnail-container {
+  position: relative;
+}
+
+.video-time {
+  position: absolute;
+  right: 10px;
+  bottom: 20px;
+  color: white;
+  background-color: hsla(0, 0%, 0%, 0.715);
+  font-size: 14px;
+  border-radius: 3px;
+  padding-block: 3px;
+  padding-inline: 6px;
+}
+
+.video-info-grid {
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: 50px 350px;
+}
+.thumbnail-container img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+.channel-profile-picture img {
+  height: 38px;
+  border-radius: 19px;
+}
+
+.video-info {
+  max-width: 350px;
+  width: 100%;
+}
+
+.video-title {
+  font-weight: 550;
+  line-height: 23px;
+  text-decoration: none;
+  color: black;
+}
+
+.main-container a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.video-author {
+  font-size: 15px;
+  color: hsl(0, 0%, 40%);
+  text-decoration: none;
+}
+
+.video-stats {
+  font-size: 14px;
+  color: hsl(0, 0%, 40%);
+  text-decoration: none;
+  margin-top: 4px;
+}

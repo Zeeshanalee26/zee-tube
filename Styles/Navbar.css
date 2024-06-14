@@ -1,0 +1,40 @@
+.navbar {
+  width: 100%;
+}
+
+.navbar .nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  position: fixed;
+  z-index: 15;
+  top: 60px;
+  background-color: white;
+  padding-block: 5px;
+  padding-inline: 10px;
+  gap: 25px;
+}
+
+.nav-content div {
+  margin-top: 10px;
+  background-color: hsl(0, 0%, 95%);
+  color: black;
+  border-radius: 10px;
+  padding-block: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  padding-inline: 12px;
+  margin-top: 0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.nav-content .all {
+  background-color: black;
+  color: white;
+}
+
+.nav-content div:hover {
+  background-color: hsl(0, 0%, 90%);
+}
